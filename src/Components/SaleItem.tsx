@@ -1,12 +1,13 @@
 import React from "react";
 import type { ISale } from "../Context/DataContext";
+import { NavLink } from "react-router-dom";
 
 const SaleItem = ({ sale }: { sale: ISale }) => {
   return (
     <div className="sale box">
-      <a href="" style={{ fontFamily: "monospace" }}>
+      <NavLink to={`/sales/${sale.id}`} style={{ fontFamily: "monospace" }}>
         {sale.id}
-      </a>
+      </NavLink>
       <div>{sale.nome}</div>
       <div>
         {sale.preco.toLocaleString("pt-br", {

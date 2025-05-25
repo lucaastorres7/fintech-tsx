@@ -141,3 +141,9 @@ ul {
   grid-template-columns: 1fr 1fr;
   gap: var(--gap);
 }
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
