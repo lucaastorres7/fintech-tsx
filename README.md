@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# Fintech Dashboard
+## 📖 Sobre o Projeto
+Esse é um projeto que simula o painel de uma aplicação financeira. O projeto foi desenvolvido com React, TypeScript e Vite, focando em uma experiência de desenvolvimento moderna e na construçao de uma interface reativa e bem estruturada.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Tecnologias Utilizadas
+- **React**: Biblioteca para construir interfaces de usuário.
+- **Vite**: Ferramenta de build para um desenvolvimento front-end mais rápido.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem.
+- **React Router DOM**: Para gerenciamento de rotas do lado do cliente.
+- **Tailwind**: Biblioteca para facilitar a estilização por meio de classes CSS já criadas.
 
-Currently, two official plugins are available:
+## 🚀 Como Executar o Projeto
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/lucaastorres7/fintech-tsx.git
+    cd fintech-tsx
+    ```
+2. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
+3. **Execute o servidor de desenvolvimento**:
+   ```bash
+   npm run dev 
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 👤 Autor
+| <img src="https://avatars.githubusercontent.com/u/151575079?s=400&u=96fac0907f9100c143dc9f46242cacdf17af240f&v=4" alt="Lucas Torres" width="150" height="150"> |
+| --------------------------------------------------------------------------------------------------------------- |
+| [Lucas Torres](https://github.com/lucaastorres7)                                                                |
